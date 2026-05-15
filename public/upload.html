@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PNG Upload</title>
+</head>
+<body>
+    <h2>Upload PNG Image</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="image">Select a PNG file:</label><br><br>
+        <input type="file" id="image" name="image" accept="image/png" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
