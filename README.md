@@ -1,3 +1,7 @@
+# Simple Multithreaded HTTP Server (Java)  
+This project implements a lightweight HTTP server capable of handling multiple clients using Java sockets and threads. The server supports basic GET and POST functionality, static file serving, simple authentication, and image upload via multipart/form‑data.
+
+## Usage:
 javac WebServer.java ClientHandler.java
 
 java WebServer 8888 ./public
